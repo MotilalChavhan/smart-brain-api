@@ -22,7 +22,7 @@ const db = knex({
 const app = express();
 // creating a middleware for parsing requests from client
 app.use(bodyParser.json());
-app.use(cors());
+// app.use(cors());
 
 // creating a root get route 
 app.get('/', (req, res) => { res.send('this is working!') })
