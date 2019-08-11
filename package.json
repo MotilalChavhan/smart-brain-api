@@ -7,9 +7,6 @@
     "node": "11.15.0",
     "npm": "6.10.3"
   },
-  "scripts": {
-    "start": "nodemon server.js"
-  },
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -23,7 +20,5 @@
     "lodash": "^4.17.15",
     "pg": "^7.12.0"
   },
-  "devDependencies": {
-    "nodemon": "^1.19.1"
-  }
+  "devDependencies": {}
 }
